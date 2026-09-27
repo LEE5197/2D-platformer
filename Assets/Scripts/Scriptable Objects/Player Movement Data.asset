@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b8e2621ee100a418025f3fd0243faf, type: 3}
+  m_Name: Player Movement Data
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerData
+  MaxSpeed: 9
+  Acceleration: 13
+  Decceleration: 16
+  VelPower: 0.96
+  Friction: 0.2
+  JumpForce: 10
+  JumpCutMultiflier: 0.4
+  CoyoteTime: 0.25
+  BufferTime: 0.25
+  FallMultiflier: 2.5
+  GravityScale: 2
+  MaxFallSpeed: 40
+  InAirWeight: 0.3
+  WallSlideSpeed: 3
+  WallJumpForce: 15
+  WallJumpRate: {x: 0.3, y: 0.7}
+  GroundSize: {x: 0.39, y: 0.1}
+  GroundPos: {x: 0, y: -0.55}
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  LeftWallSize: {x: 0.1, y: 0.6}
+  LeftWallPos: {x: -0.27, y: -0.12}
+  RightWallSize: {x: 0.1, y: 0.6}
+  RightWallPos: {x: 0.27, y: -0.12}
+  DashForce: 20
+  DashCooldown: 0.1
+  DashTime: 0.2
+  ChargeJumpForce: 23
+  ChargeTime: 0.5
+  Duration: 0
+  SquashRate: {x: 0, y: 0}
+  StretchRate: {x: 0, y: 0}
